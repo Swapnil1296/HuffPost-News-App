@@ -1,0 +1,24 @@
+.news-card{
+    margin-bottom: 2vw;
+}
+
+.news-card>img{
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
+.news-card>p:nth-child(2){
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.news-card>p:nth-child(3):hover{
+    text-decoration: underline;
+}
+
+.news-card>p{
+    font-weight: 500;
+    margin: 0;
+    margin-top: 10px;
+    text-align: justify;
+}

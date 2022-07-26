@@ -1,0 +1,9 @@
+ /* .side-news_inner-div>h3{
+    color:red;
+    
+}  */
+.innercomponent{
+  
+    border-bottom: 1px solid rgba(152, 151, 151, 0.385);
+    padding:20px 10px;
+}

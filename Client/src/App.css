@@ -1,0 +1,61 @@
+@font-face {
+    font-family: ProximaNovo;
+    src: url('./Fonts/Proxima-Nova-Font/Proxima\ Nova\ Font.otf');
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+  
+    display: flex;
+    width: 100%;
+}
+
+
+
+.App__child {
+    width: 75%;
+    background-color: white;
+    transition: 0.5s width ease-out;
+   
+}
+
+.App__child::-webkit-scrollbar {
+    display: none;
+}
+
+.child__width {
+    width: 100%;
+    transition: 0.5s width;
+}
+
+
+.main-div {
+    padding: 0px 6%;
+    display: flex;
+}
+
+.news {
+    flex: 9;
+    margin-right: 5%;
+}
+
+.side-news {
+    flex: 4;
+}
+
+.news h3.news-heading {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 100%;
+}
+
+.news-heading::before,
+.news-heading::after {
+    content: " / ";
+    color: #517dff;
+}

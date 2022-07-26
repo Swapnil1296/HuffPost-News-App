@@ -1,0 +1,37 @@
+.news a{
+    text-decoration: unset;
+    color: black;
+}
+/* .news{
+     border: 1px solid red;
+
+} */
+
+.hero-news-card{
+   
+    width:100%;
+
+}
+
+.hero-news-card>h1{
+   text-align: center;
+}
+
+.hero-image-div{
+   
+    width: 80%;
+    height: 80%;  
+    margin: auto;  
+}
+.hero-image-div>img{
+    width: 100%;
+    height: 100%;
+}
+.breaking{
+    color: red;
+    font-size:20px;
+    font-style: italic;
+  
+  
+}
+

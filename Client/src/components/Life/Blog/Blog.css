@@ -1,0 +1,98 @@
+/* Parent blog-card */
+.blog-card {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 500px;
+}
+.title {
+    width: 400px;
+    margin: auto;
+    position: relative; 
+}
+
+.blog-card-title-img {
+    width: 400px;
+    height: 80px;   
+    
+}
+
+.blog-card-img-heading {
+    position: absolute;
+    top: 0;
+    margin: 5% 0% 0% 25%;
+    height: -2px;
+    width: 190px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+
+}
+.blog-card-img-heading:hover {
+    background-color: rgba(91, 0, 0, 0.537);
+    color: cyan;
+    transition: .3s;
+}
+
+.blog-card-title {
+    line-height: 0px;
+}
+
+
+/* Parent of side blog-cards and middle blog-card */
+.blog-blog-card{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap : 50px
+}
+/* side blog-cards Css */
+.side-blog-card {
+    width: 300px;
+    text-align: center;
+}
+.side-blog-card:hover .side-blog-card-heading, .middle-blog-card:hover .middle-blog-card-heading {
+    color: blue;
+}
+.side-blog-card:hover .side-blog-card-img, .middle-blog-card:hover .middle-blog-card-img{
+    opacity: .8;
+    transition: .3s;
+}
+
+.side-blog-card-img {
+   height: 300px;
+   width: 300px;
+}
+.side-blog-card-heading{
+    margin: 0px 20px;
+}
+
+.middle-blog-card-img{
+    height: 330px;
+    width: 550px;
+    object-fit: cover;
+}
+
+
+/* Button See more */
+.btn-seemore{
+    height : 49px;
+    width: 167px;
+    margin: auto;    
+    border-right: 4px solid yellow;
+    border-bottom: 4px solid yellow;
+}
+.seemore{
+    height : 50px;
+    width: 167px;
+    font-size: 18px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+.btn-seemore:hover{
+    border-right: 4px solid #171d67;
+    border-bottom: 4px solid #171d67;
+}
+.btn-seemore:hover .seemore{
+    background-color: rgb(210, 251, 254);
+}

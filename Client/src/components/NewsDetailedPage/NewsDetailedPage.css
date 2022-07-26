@@ -1,0 +1,15 @@
+.detailed-page{
+    padding: 0 10vw;
+}
+
+.detailed-page>:nth-child(1){
+    text-transform: uppercase;
+}
+
+.detailed-page>:nth-child(2){
+    text-transform: capitalize;
+}
+
+.detailed-page>img{
+    width: 100%;
+}

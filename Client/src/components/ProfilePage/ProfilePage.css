@@ -1,0 +1,48 @@
+.profile-div{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 100px 26vw;
+    font-family: ProximaNovo;;
+}
+
+.profile-div>div:nth-child(n+3){
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text{
+    text-align: justify;
+}
+
+.sub-header{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.sub-body{
+    font-size: 14px;
+    color: #cddbd8;
+}
+
+.margin{
+    margin: 30px 0;
+}
+
+.line-margin{
+    margin: 30px 0;
+    border: unset;
+    border-top: 1px solid #cddbd84f;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 30%;
+    
+}
+
+.user-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

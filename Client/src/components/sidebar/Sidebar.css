@@ -1,0 +1,102 @@
+.navbar__sidebar {
+    background-color: rgb(25, 25, 25);
+    text-align: left;
+    overflow-y: scroll;
+}
+
+.sidebar__hidden {
+    width: 0;
+    transition: 0.5s width ease-in;
+}
+
+.sidebar__visible {
+    width: 25%;
+    transition: 0.5s width;
+}
+
+.navbar__sidebar>svg {
+    color: white
+}
+
+.App__child {
+    width: 75%;
+    background-color: white;
+    transition: 0.5s width ease-out;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.sidebar__child {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.sidebar__child>div>div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 0;
+    margin-left: 30px;
+}
+
+.sidebar__child>div>div>a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar__child>div>div>a:hover {
+    text-decoration: underline;
+}
+
+.sidebar__child>div>a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.sidebar__child>div>a:hover {
+    text-decoration: underline;
+}
+
+.child__width {
+    width: 100%;
+    transition: 0.5s width;
+}
+
+.sidebar__symbol {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.sidebar__child>div:nth-child(1) {
+    border-top: 1px solid rgba(255, 255, 255, 0.272);
+    margin-top: 0px;
+}
+
+.sidebar__child>div {
+    margin-top: 20px;
+}
+
+#sidebar_lastdiv {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    color: white;
+}
+
+#sidebar_lastdiv>div {
+    width: 100px;
+    display: flex;
+}
+
+#sidebar_lastdiv>div>svg {
+    margin-left: 20px;
+    color: white;
+}

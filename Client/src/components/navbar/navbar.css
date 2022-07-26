@@ -1,0 +1,121 @@
+.profile-logo{
+    width:35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 20px;
+   
+}
+/* .navbar__container{
+    
+} */
+
+.navbar__upper {
+    text-align: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 15px 0px;
+    width: 100%;
+}
+
+.navbar__lower {
+    display: flex;
+    background-color: black;
+    border-top: 1px solid rgba(253, 247, 247, 0.171);
+    color: white;
+    padding: 10px;
+    z-index: 100;
+}
+
+.navbar__items {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 270px;
+    width: 60%;
+}
+
+.subnav__item {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.navbar__left {
+    display: flex;
+    height: 24px;
+    left: 20px;
+    visibility: hidden;
+    display: flex;
+    width: 15%;
+    margin-right: 50px;
+}
+
+.showlogo {
+    visibility: visible;
+}
+
+.navbar__right {
+    color: #0dbe98;
+    font-weight: 700;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.navbar__container_mainlogo>a>img {
+    width: 35%;
+    /* height: 100%; */
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar__lower {
+        background-color: black;
+        border-top: 1px solid white;
+        color: white;
+        display: none;
+    }
+}
+
+.navbar__container_login {
+    align-items: center;
+    display: flex;
+}
+
+.navbar__container_login-items {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar__container_login>:nth-child(2) {
+    color: #0dbe98;
+}
+
+.navbar__container_leftsymbol {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.fixed {
+    position: fixed;
+    width: 99%;
+    top: 0;
+}
+
+.navbar__left>:nth-child(1) {
+    margin-left: 5px;
+    margin-right: 5px;
+    min-width:30px;
+}
+.navbar__left>a>img{
+
+    max-width: 100%;
+}

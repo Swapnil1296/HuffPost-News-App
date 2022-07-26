@@ -1,0 +1,27 @@
+.top {
+    height: 280px;
+    width: 100%;
+    background-color: navy;
+    position: relative;
+    margin-bottom: 370px;
+}
+
+.top-div-img {
+    top: 50%;
+    left: 10%;
+    position: absolute;
+}
+.top-img{
+    height: 2;
+}
+.top-div-title{
+    height: 290px;
+    width: 290px;
+    background-color: #0d0eca;
+    color: white;
+    position: absolute;
+    top: 57%;
+    right: 10%;
+    padding: 50px;
+}
+
