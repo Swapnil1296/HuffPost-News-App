@@ -1,8 +1,6 @@
 # HuffPost-News-App 🌐
 
-**CredoBeauty** is an E-commerce platform,Where they are building a destination where one can find the most comprehensive collection of the most beautiful, safe and effective beauty products in the world.
-
-In this project we have tried to make a look alike clone of **CredoBeauty**. With our efforts and the technology stack, that we have learned so far in the masai school, we were able to clone the front end with high precision and quality.
+**HuffPost** is an American news aggregator and blog, with localized and international editions. The site offers news, satire, blogs, and original content, and covers politics, business, entertainment, environment, technology, popular media, lifestyle, culture, comedy, healthy living, women's interests, and local news featuring columnists.[1] It was created to provide a liberal alternative to the conservative news websites such as the Drudge Report. The site offers content posted directly on the site as well as user-generated content via video blogging, audio, and photo.[6] In 2012, the website became the first commercially run United States digital media enterprise to win a Pulitzer Prize.
 
 # Technology Stack Used 💻
 
@@ -11,28 +9,31 @@ In this project we have used the following tech stack.
 - HTML: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - CSS: [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - JavaScript:[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+-LocalStorage
+
 
 <br>
 
-## Libraries Used 🌟
+## Libraries & Frameworks Used 🌟
 
-1. Images: [CredoBeauty](https://credobeauty.com/)
-2. Icons:[Awesome Icon](https://www.w3schools.com/icons/fontawesome5_intro.asp)
-3. Fonts: [Google Fonts](https://fonts.google.com/)
+1. React JS
+2.Redux
+3.API  [https://currentsapi.services/en]
+
 
 <br>
 
 ## How to run the project 📑
 
-In this project, we were able to achieve a near to perfect clone of the original website. As we do not want to overwhelm you, we haven't shared all the pages here. Please fork the repository and then use it on your own. If you want to collaborate with us on this project then please feel free to reach out to us.
+In this project, i were able to achieve a near to perfect clone of the original website. As i do not want to overwhelm you, i haven't shared all the pages here. Please fork the repository and then use it on your own. If you want to collaborate with me on this project then please feel free to reach out to me.
 
-You can also take a glimpse of our Project, just follow the below steps:
+You can also take a glimpse of my Project, just follow the below steps:
 
-    1. Copy the path of index.html and paste it into your browser.
+    1.Clone the repository in your divice .
 
-    2. In the browser you will land on the landing page just Register and login if you have signed up before or do the signup.
+    2.In VScode run command npm install to install all dependencies.
 
-    3. On Our website Users can order suitable and affordable cosmatics.
+    3.Then run npm run start command.
 
 <br>
 
@@ -40,59 +41,43 @@ You can also take a glimpse of our Project, just follow the below steps:
 
 1. Landing Page
 
-   ![FoodXprs](photoimages/homepage.png)
+   ![FoodXprs](./Utensils/Frontpage.png)
 
-2. Register Page
+2. New article Page
 
-   ![FoodXprs](photoimages/loinpage.png)
+   ![FoodXprs](./Utensils/News.png)
 
-3. Product Page
+3. Login Page
 
-   ![FoodXprs](photoimages/productpage.png)
+   ![FoodXprs](./Utensils/Login.png)
 
-4. Cart Page
+4. User Profile Page
 
-   ![FoodXprs](photoimages/cartpage.png)
+   ![FoodXprs](./Utensils/Profile.png)
 
-5. Checkout Page
 
-   ![FoodXprs](photoimages/paymentpage.png)
 
 <br>
 
 ## Features ✨
 
-1. User can register in web platform.
-2. User can apply various sort and filter option on product page
-3. User can add the product into Cart and Wishlist page.
-4. User can checkout and make a payment
+1. User can login or register in web platform.
+2. User can read different news
 
 <br>
 
 ## Check out Blog🎥
 
-[inside to our first collaborative project](https://medium.com/@raikwar.manjari/the-inside-to-our-first-collaborative-project-6a78edce04e4)
+
 
 <br>
 
 ## Team Members and Contributors 😇
 
-👤 **Hemant Suryawanshi**
-
-- Github: [hemant-suryawanshi](https://github.com/hemant-suryawanshi)
-
-👤 **Manjari Raikwar**
-
-- Github: [manjari5506](https://github.com/manjari5506)
+👤
 
 👤 **Swapnil Landage**
 
 - Github: [Swapnil1296](https://github.com/Swapnil1296)
 
-👤 **Aman Rana**
 
-- Github: [aman999rana](https://github.com/aman999rana)
-
-👤 **Pintu Gowda**
-
-- Github: [pintu8328](https://github.com/pintu8328)
