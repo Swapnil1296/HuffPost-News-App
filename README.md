@@ -19,6 +19,11 @@ In this project we have used the following tech stack.
 1. React JS
 2.Redux
 3.API  [https://currentsapi.services/en]
+4.React-icons
+5. React-spinners
+6.React-Script
+7.React-Router
+8.Axios
 
 
 <br>
